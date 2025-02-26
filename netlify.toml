@@ -19,3 +19,9 @@ force = true
   for = "/schemas/:version"
   [headers.values]
     content-type = "application/yaml"
+
+[[redirects]]
+from = "/announcements/*"
+to = "/announcements/"
+status = 302
+force = true
