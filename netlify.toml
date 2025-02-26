@@ -24,4 +24,4 @@ force = true
 from = "/announcements/*"
 to = "/announcements/"
 status = 302
-force = true
+force = false
